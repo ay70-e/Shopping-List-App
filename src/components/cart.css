@@ -1,0 +1,90 @@
+
+.product-card {
+  background: #e28bee;
+  padding: 10px;
+  border: 2px solid #cd57e4;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  color: #f0f0f0;
+  width: 500px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+.product-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.product-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px; 
+}
+
+
+.product-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.price-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+  
+}
+
+
+.price-input {
+  width: 60px;
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  color: inherit;
+  font-size: 18px;
+}
+
+.header-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end; 
+  gap: 8px; 
+}
+
+
+.edit-btn, .delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+
